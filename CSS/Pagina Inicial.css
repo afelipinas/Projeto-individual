@@ -1,64 +1,11 @@
-*, *::before, *::after{
+*{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-.texto{
-    font-family: 'Permanent Marker', cursive;
-    color: beige;
-    font-size: 50px;
-    line-height: 1.5;
-    margin-right: 70px;
-    width: 100%;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: space-around;
 
-}
 
-.container{
-    font-family: 'Russo One', sans-serif;
-    font-size: 20px;          
-    background-color: rgb(11, 10, 73);
-    padding-top: 80px;
-    padding-bottom: 5px;
-    display: flex;
-    justify-content:space-evenly ;
-    align-items: flex-end;
-    
-}
-
-.home{
-    color: whitesmoke;
-    padding: 2px;
-    border: 2px solid black;
-    cursor: pointer;
-}
-
-.itsme{
-    color: whitesmoke;
-    padding: 2px;
-    border: 2px solid black;
-    cursor: pointer;
-}
-
-.about{
-    color: whitesmoke;
-    padding: 2px;
-    border: 2px solid black;
-    cursor: pointer;
-}
-
-.contact{
-    color: whitesmoke;
-    padding: 2px;
-    border: 2px solid black;
-    cursor: pointer;
-}
-
-a:hover{
-    font-size: 40px;
-}
 
 body{
     background-color: #0B0A49;
@@ -70,21 +17,45 @@ body{
 }
 
 .caixa{
-    margin-top: 100px;
+   /* margin-top: 100px;*/
     width: 100%;
+    min-height: 80vh;
+    max-width: 1440px;
+    margin: auto;
+    /*padding: 20px;*/
     display: flex;  
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.image{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 .Sailor{
-    height:200px;
-    width: 200px;
-    padding-left: 105px;
+    height:370px;
+    width: 350px;  
+    margin-left: 170px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-    
+    /*justify-content: center;*/
+    align-items:flex-end;
+}
+
+.texto{
+    font-family: 'Permanent Marker', cursive;
+    color: beige;
+    font-size: 50px;
+    line-height: 1.5;
+    margin-right: 70px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content:flex-end;
+    align-items: flex-end ;
+
 }
 
 .texto:hover{

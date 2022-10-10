@@ -1,47 +1,8 @@
-.container{
-    font-family: 'Russo One', sans-serif;
-    font-size: 20px;          
-    background-color: rgb(11, 10, 73);
-    padding-top: 80px;
-    padding-bottom: 5px;
-    display: flex;
-    justify-content:space-evenly ;
-    align-items: flex-end;
-    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
-.home{
-    color: whitesmoke;
-    padding: 2px;
-    border: 2px solid black;
-    cursor: pointer;
-}
-
-.itsme{
-    color: whitesmoke;
-    padding: 2px;
-    border: 2px solid black;
-    cursor: pointer;
-}
-
-.about{
-    color: whitesmoke;
-    padding: 2px;
-    border: 2px solid black;
-    cursor: pointer;
-}
-
-.contact{
-    color: whitesmoke;
-    padding: 2px;
-    border: 2px solid black;
-    cursor: pointer;
-}
-
-a:hover{
-    font-size: 40px;
-}
-
 
 
 body{
@@ -53,7 +14,10 @@ body{
 }
 
 .contato{
-    width: 100%;max-width: 500px;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 30px;
+    margin-bottom: 80px;
 }
 
 .form{
